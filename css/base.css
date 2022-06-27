@@ -1,0 +1,512 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --base-color: #fbc84e;
+  --light-base-color: #fef5e7;
+}
+body {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fef5e7;
+  /* background-image: linear-gradient(to bottom, black, silver); */
+}
+#headSection {
+  width: 80%;
+  height: 120px;
+  max-height: 120px;
+  background-image: url("../images/3606208.jpg");
+  background-repeat: repeat;
+}
+#headSection article {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+#headSection article .logoBlock a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursive;
+}
+#headSection article .logoBlock figure img {
+  width: 80px;
+  height: 80px;
+}
+#headSection article .logoBlock span {
+  font-size: 16px;
+  color: rgb(77, 28, 28);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+/* menu */
+.menuBlock {
+  display: block;
+  font-family: "Oswald", sans-serif;
+}
+.topbar_menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.topbar_menu span:nth-child(1) {
+  color: rgb(77, 28, 28);
+  font-size: 26px;
+}
+.topbar_menu span:nth-child(2) {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+}
+.bottombar_menu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottombar_menu ul li {
+  position: relative;
+  top: 10px;
+}
+.bottombar_menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(77, 28, 28);
+  margin-left: 25px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* body part starts */
+
+#bodySection {
+  width: 80%;
+  height: 80vh;
+  background-image: url("../images/3606208.jpg");
+}
+#bodySection article {
+  width: 95%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#bodySection article .burgurWeek {
+  flex-basis: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.burgurWeek p {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border: 2px dashed rgb(122, 116, 116);
+  position: absolute;
+  left: 0;
+  bottom: 350px;
+  font-family: "Oswald", sans-serif;
+  color: rgb(98, 91, 91);
+}
+.burgurWeek h1:nth-child(2) {
+  font-size: 70px;
+  letter-spacing: 5.5px;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  bottom: 240px;
+  color: rgb(77, 28, 28);
+  text-shadow: 4px 2px 2px #fff;
+  font-family: "Alfa Slab One", cursive;
+}
+.burgurWeek h1:nth-child(3) {
+  font-size: 40px;
+  position: absolute;
+  letter-spacing: 4px;
+  left: 10px;
+  bottom: 180px;
+  color: rgb(77, 28, 28);
+  text-shadow: 4px 2px 2px #fff;
+  font-family: "Alfa Slab One", cursive;
+}
+#bodySection article .coolDrink {
+  flex-basis: 50%;
+  height: inherit;
+  position: relative;
+  display: flex;
+}
+#bodySection article .coolDrink .burger_img img {
+  width: 300px;
+  height: 280px;
+  position: absolute;
+  top: 138px;
+  left: 90px;
+  z-index: 1;
+}
+#bodySection article .coolDrink .drinks_img img {
+  position: absolute;
+  width: 150px;
+  height: 400px;
+  left: 280px;
+  top: 20px;
+}
+#bodySection article .coolDrink .french_img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: -60px;
+  top: 20px;
+}
+#bodySection article .coolDrink .glow_img img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 60px;
+  top: -80px;
+}
+#bodySection article .coolDrink .shadow_img img {
+  position: absolute;
+  top: 420px;
+  left: 50px;
+}
+
+/* after burger slider */
+#afterSlider {
+  width: 100%;
+  max-height: 420px;
+  height: 420px;
+  /* background-image: linear-gradient(to bottom, rgb(112, 111, 111), black); */
+}
+#afterSlider > article {
+  width: 80%;
+  margin: 0px auto;
+  max-height: 420px;
+  height: 420px;
+  background-color: #fff;
+}
+#afterSlider > article > div {
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  top: 20px;
+  max-height: 400px;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+}
+#afterSlider article > div > aside {
+  flex-basis: 50%;
+  background-color: #fff;
+}
+.left_img_slider img {
+  width: 100%;
+  height: 399px;
+  padding: 8px;
+}
+#afterSlider > article > div > aside:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+#afterSlider > article > div > aside .right_after_slider {
+  flex-basis: 50%;
+  margin: 10px;
+}
+
+#afterSlider > article > div > aside .right_after_slider img {
+  width: 100%;
+  height: 180px;
+}
+
+.left_img_slider {
+  position: relative;
+}
+.left_img_slider > .textBlock h3 {
+  position: absolute;
+  top: 16%;
+  left: 6%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+.left_img_slider > .textBlock h1 {
+  position: absolute;
+  top: 22%;
+  left: 6%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+}
+
+.right_after_slider {
+  position: relative;
+}
+.right_after_slider > .textBlock h3 {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+.right_after_slider > .textBlock h1 {
+  position: absolute;
+  top: 28%;
+  left: 3%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+/* choose and enjoy starts here */
+
+#chooseAndEnjoy {
+  width: 80%;
+  height: 500px;
+  background-color: #fff;
+}
+
+#chooseAndEnjoy article {
+  width: 96%;
+  height: 450px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+#chooseAndEnjoy > article > header {
+  flex-basis: 30%;
+  text-align: center;
+}
+#chooseAndEnjoy > article > header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#chooseAndEnjoy > article > header > div > h2 {
+  font-size: 12px;
+  color: rgb(78, 28, 28);
+  background-color: #fbc84e;
+  padding: 4px 14px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+#chooseAndEnjoy > article > header > div > h1 {
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: rgb(78, 28, 28);
+  margin: 20px 0px 10px 0px;
+  font-family: "Alfa Slab One", cursive;
+}
+#chooseAndEnjoy > article > header > div > p {
+  font-size: 12px;
+  padding: 0px 60px;
+}
+#chooseAndEnjoy > article > main {
+  flex-basis: 70%;
+  display: flex;
+  height: inherit;
+}
+#chooseAndEnjoy > article > main > .contentBlock {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+#chooseAndEnjoy > article > main > .contentBlock figure {
+  position: relative;
+}
+#chooseAndEnjoy > article > main > .contentBlock figure .secondImg {
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 170px;
+  left: 60px;
+}
+#chooseAndEnjoy > article > main > .contentBlock figure img {
+  padding: 10px 0px 0px 0px;
+  width: 180px;
+  height: 180px;
+}
+#chooseAndEnjoy > article > main > .contentBlock > h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin: 20px 0px 0px 0px;
+  text-transform: uppercase;
+  color: rgb(78, 28, 28);
+}
+#chooseAndEnjoy > article > main > .contentBlock > p {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  padding: 0px 30px;
+  margin: 10px 0px 10px 0px;
+  text-transform: capitalize;
+  color: rgb(115, 110, 110);
+}
+
+#chooseAndEnjoy > article > main > .contentBlock > button {
+  padding: 8px 20px;
+  color: #fff;
+  background-color: red;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  border: none;
+  margin: 10px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", cursive;
+}
+#chooseAndEnjoy > article > main > .contentBlock > button:hover {
+  background-color: #fbc84e;
+  color: red;
+}
+
+/* last section starts  */
+#lastSection {
+  width: 80%;
+  height: 250px;
+  background-color: #fff;
+}
+#lastSection article {
+  width: 90%;
+  height: 220px;
+  margin: 0 auto;
+  display: flex;
+}
+#lastSection > article > div {
+  flex: 1;
+  box-shadow: -0px 10px 10px 0px silver;
+}
+#lastSection > article > div:nth-child(1) {
+  padding: 30px;
+}
+#lastSection > article > div:nth-child(1) h3 {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: rgb(78, 28, 28);
+}
+#lastSection > article > div:nth-child(1) h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgb(78, 28, 28);
+  font-family: "Alfa Slab One", cursive;
+}
+#lastSection > article > div:nth-child(1) p {
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0px 10px 0px 0px;
+}
+#lastSection > article > .imageDiv {
+  width: 100%;
+  height: 220px;
+}
+#lastSection > article > .imageDiv figure img {
+  width: 100%;
+  height: 220px;
+}
+
+/* form block starts */
+#formBlock {
+  width: 80%;
+  height: 450px;
+  background-color: #fff;
+}
+#formBlock article {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#formBlock > article > aside > h2 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 8px 0px;
+  text-transform: uppercase;
+  font-family: "Osawald", sans-serif;
+  color: rgb(78, 28, 28);
+  text-align: center;
+}
+#formBlock > article > aside > h1 {
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  word-spacing: 4px;
+  margin: 10px 0px 25px 0px;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", cursive;
+  color: rgb(78, 28, 28);
+  text-align: center;
+}
+#formBlock > article > aside {
+  position: relative;
+  left: -30px;
+}
+#formBlock > article > aside > form {
+  height: 250px;
+  width: 500px;
+}
+#formBlock > article > aside > form > table {
+  width: 500px;
+  height: 250px;
+  padding: 25px;
+}
+
+#formBlock > article > aside > form > table input {
+  width: 100%;
+  height: 40px;
+}
+.ta td {
+  padding: 10px;
+}
+#formBlock > article > .topImg > figure > img {
+  position: absolute;
+  width: 300px;
+  height: 280px;
+  top: 0;
+  left: -60px;
+}
+#formBlock > article > .bottomImg > figure > img {
+  position: absolute;
+  width: 200px;
+  height: 350px;
+  top: 140px;
+  left: 100px;
+}
+.footerImg figure img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 173px;
+  left: 756px;
+}
